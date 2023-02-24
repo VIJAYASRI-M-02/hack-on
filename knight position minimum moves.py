@@ -20,8 +20,7 @@ def isInside(x, y, N):
 # target position
 
 
-def minStepToReachTarget(knightpos,
-						targetpos, N):
+def minStepToReachTarget(knightpos,targetpos, N):
 
 	dx = [2, 2, -2, -2, 1, 1, -1, -1]
 	dy = [1, -1, 1, -1, 2, -2, 2, -2]
